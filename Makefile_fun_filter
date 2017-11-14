@@ -1,0 +1,7 @@
+sources := foo.c bar.c baz.s ugh.h
+MAKE_VERSION=4.9.9
+ALL:
+	@echo $(filter %.c,$(sources))
+	@echo $(filter %.s,$(sources))
+	@echo $(filter %.h %.s,$(sources))
+	@echo $(filter 4.%,$(MAKE_VERSION))
