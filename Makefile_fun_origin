@@ -1,0 +1,15 @@
+LL:=1
+override SHELL=/bin/sh
+all:
+	@echo $(origin V)
+	#display "environment"
+	@echo $(origin USER)
+	#display "defalt"
+	@echo $(origin CC)
+	#display "file"
+	@echo $(origin LL)
+	#display "override"
+	@echo $(origin SHELL)
+	#display "automatic"
+	echo $(origin @)
+
