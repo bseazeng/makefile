@@ -1,0 +1,4 @@
+VAR=Hello World
+ALL:
+	@echo $(firstword x$(VAR))
+	

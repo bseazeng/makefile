@@ -1,0 +1,7 @@
+CURDIR2=/home/bsea/
+CURDIR3=/home/bsea
+ALL:
+	@echo $(dir $(CURDIR3))
+	@echo $(dir $(CURDIR))
+	@echo $(dir $(CURDIR2))
+	@echo $(dir $(CURDIR3))
